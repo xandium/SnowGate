@@ -1,5 +1,5 @@
 {
-  "name": "snowgate",
+  "name": "@xandium/snowgate",
   "version": "0.2.0",
   "description": "A simple rest proxy that handles ratelimits when interacting with the discord api",
   "main": "index.js",
@@ -16,7 +16,8 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "multer": "^1.4.1",
-    "snowtransfer": "^0.2.4"
+    "@xandium/snowtransfer": "^0.2.4",
+    "@xandium/stargear": "^0.2.0"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
