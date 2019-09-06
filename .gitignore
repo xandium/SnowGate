@@ -3,3 +3,4 @@ node_modules
 .idea
 snowgate.iml
 config/config.json
+package-lock.json
