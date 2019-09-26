@@ -49,7 +49,7 @@ router.get("/channels/:id/messages/:message_id", async (req, res) => {
   return utils.wrapRequest(
     req.rest,
     "channel",
-    "getChannelMessages",
+    "getChannelMessage",
     res,
     req.params.id,
     req.params.message_id
